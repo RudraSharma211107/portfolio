@@ -4,149 +4,285 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rudra Sharma | Developer Portfolio</title>
+    <title>Rudra Sharma | Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
     <!-- NAVBAR -->
     <header>
         <nav class="navbar">
-            <a href="#home" class="logo">R<span>.</span></a>
+            <a href="#home" class="logo">Rudra<span>.</span></a>
+
+            <button class="menu-btn" id="menuBtn">☰</button>
 
             <ul class="nav-links" id="navLinks">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#achievements">Achievements</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-
-            <a href="#contact" class="nav-btn">Let's Talk</a>
-
-            <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">☰</button>
         </nav>
     </header>
 
-    <!-- HOME -->
+
+    <!-- HOME SECTION -->
     <section class="hero" id="home">
+
         <div class="hero-content">
-            <p class="intro">HELLO, WORLD! 👋</p>
+            <p class="intro">HELLO, I'M</p>
 
-            <h1>I'm <span>Rudra Sharma</span></h1>
+            <h1>Rudra <span>Sharma</span></h1>
 
-            <h2>I'm a <span id="typing"></span></h2>
+            <h2>I'm a <span id="typing">Developer</span></h2>
 
             <p class="hero-description">
-                A B.Tech student exploring technology, web development
-                and problem-solving. I love turning ideas into
-                meaningful digital experiences.
+                A B.Tech student passionate about technology,
+                web development, creativity and problem-solving.
+                Always curious to learn and build something new.
             </p>
 
             <div class="hero-buttons">
-                <a href="#projects" class="primary-btn">Explore My Work ↗</a>
-                <a href="#contact" class="secondary-btn">Contact Me</a>
-            </div>
-
-            <div class="social-links">
-                <a href="https://github.com/" target="_blank">GitHub ↗</a>
-                <a href="https://linkedin.com/" target="_blank">LinkedIn ↗</a>
+                <a href="#projects" class="btn">Explore My Work</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
             </div>
         </div>
 
-        <div class="hero-visual">
-            <div class="glow-circle"></div>
-            <div class="hero-card">
-                <div class="card-top">
-                    <span>●</span>
-                    <span>●</span>
-                    <span>●</span>
+        <div class="hero-card">
+            <div class="code-window">
+                <div class="window-dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
-                <div class="code-text">
-                    <p><span class="purple">const</span> developer = {</p>
-                    <p class="indent">name: <span class="green">"Rudra"</span>,</p>
-                    <p class="indent">passion: <span class="green">"Technology"</span>,</p>
-                    <p class="indent">learning: <span class="green">"Everyday"</span>,</p>
-                    <p class="indent">goal: <span class="green">"Build Something Great"</span></p>
-                    <p>};</p>
-                    <br>
-                    <p><span class="purple">console</span>.log("Hello World!");</p>
-                </div>
+
+                <pre>
+<span class="code-purple">const</span> developer = {
+    name: <span class="code-green">"Rudra Sharma"</span>,
+    education: <span class="code-green">"B.Tech"</span>,
+    interests: [
+        <span class="code-green">"Web Development"</span>,
+        <span class="code-green">"Technology"</span>,
+        <span class="code-green">"Problem Solving"</span>
+    ],
+    mindset: <span class="code-green">"Always Learning"</span>
+};
+                </pre>
             </div>
         </div>
+
     </section>
 
-    <!-- ABOUT -->
+
+    <!-- ABOUT SECTION -->
     <section class="section" id="about">
+
         <div class="section-heading">
             <p>GET TO KNOW ME</p>
             <h2>About <span>Me</span></h2>
         </div>
 
         <div class="about-content">
-            <div class="about-box">
-                <h3>A little about myself.</h3>
+
+            <div class="about-text">
+                <h3>A Little About Myself</h3>
+
                 <p>
-                    I'm Rudra Sharma, a B.Tech student with an interest
-                    in technology, programming and creative problem-solving.
-                    I'm currently exploring web development and learning
-                    how to transform ideas into functional applications.
+                    Hey! I'm Rudra Sharma, a B.Tech student at
+                    South Asian University with an interest in
+                    technology, programming and web development.
                 </p>
+
                 <p>
-                    I believe in learning by building, experimenting
-                    with new technologies and constantly improving
-                    my skills.
+                    I enjoy exploring new technologies, understanding
+                    how things work and turning ideas into practical
+                    projects. I believe in learning through experience
+                    and constantly improving my skills.
                 </p>
-                <a href="#contact" class="primary-btn">Get In Touch ↗</a>
+
+                <p>
+                    Apart from academics and technology, I have also
+                    been involved in sports, leadership activities
+                    and extracurricular events.
+                </p>
             </div>
 
-            <div class="about-stats">
-                <div class="stat-card">
-                    <h3>01+</h3>
-                    <p>Projects Started</p>
+            <div class="about-info">
+
+                <div class="info-card">
+                    <span>🎓</span>
+                    <h3>Student</h3>
+                    <p>B.Tech Undergraduate</p>
                 </div>
-                <div class="stat-card">
-                    <h3>∞</h3>
-                    <p>Ideas to Explore</p>
+
+                <div class="info-card">
+                    <span>💻</span>
+                    <h3>Interests</h3>
+                    <p>Web Development & Technology</p>
                 </div>
-                <div class="stat-card">
-                    <h3>100%</h3>
-                    <p>Curiosity to Learn</p>
+
+                <div class="info-card">
+                    <span>⚽</span>
+                    <h3>Sports</h3>
+                    <p>Football & Athletics</p>
                 </div>
-                <div class="stat-card">
-                    <h3>2026</h3>
-                    <p>The Beginning</p>
+
+                <div class="info-card">
+                    <span>🚀</span>
+                    <h3>Mindset</h3>
+                    <p>Learn, Build & Improve</p>
                 </div>
+
             </div>
         </div>
+
     </section>
 
-    <!-- SKILLS -->
-    <section class="section" id="skills">
+
+    <!-- EDUCATION SECTION -->
+    <section class="section" id="education">
+
         <div class="section-heading">
-            <p>WHAT I WORK WITH</p>
+            <p>MY ACADEMIC BACKGROUND</p>
+            <h2>My <span>Education</span></h2>
+        </div>
+
+        <div class="education-container">
+
+            <div class="education-card">
+                <span class="education-date">CURRENTLY PURSUING</span>
+
+                <h3>Bachelor of Technology</h3>
+
+                <h4>South Asian University</h4>
+
+                <p>
+                    Currently pursuing my undergraduate degree,
+                    exploring programming, technology, software
+                    development and problem-solving.
+                </p>
+
+                <span class="education-tag">Undergraduate</span>
+            </div>
+
+
+            <div class="education-card">
+                <span class="education-date">SCHOOL EDUCATION</span>
+
+                <h3>Schooling</h3>
+
+                <h4>Banyan Tree School, Lodhi Road</h4>
+
+                <p>
+                    Completed my school education while participating
+                    in academics, sports, leadership activities
+                    and extracurricular events.
+                </p>
+
+                <span class="education-tag">School Education</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ACHIEVEMENTS SECTION -->
+    <section class="section" id="achievements">
+
+        <div class="section-heading">
+            <p>BEYOND THE CLASSROOM</p>
+            <h2>Achievements & <span>Activities</span></h2>
+        </div>
+
+        <div class="achievement-grid">
+
+            <div class="achievement-card">
+                <div class="achievement-icon">🏆</div>
+                <h3>SQF Olympiad</h3>
+                <p>
+                    Secured 5th position in the SQF Olympiad.
+                </p>
+            </div>
+
+            <div class="achievement-card">
+                <div class="achievement-icon">♟️</div>
+                <h3>Chess Competition</h3>
+                <p>
+                    Secured 10th position in an interschool
+                    chess competition.
+                </p>
+            </div>
+
+            <div class="achievement-card">
+                <div class="achievement-icon">⚽</div>
+                <h3>School Football Team</h3>
+                <p>
+                    Represented my school as a member of
+                    the school football team.
+                </p>
+            </div>
+
+            <div class="achievement-card">
+                <div class="achievement-icon">🥇</div>
+                <h3>Relay Race</h3>
+                <p>
+                    Won a gold medal in a relay race.
+                </p>
+            </div>
+
+            <div class="achievement-card">
+                <div class="achievement-icon">👑</div>
+                <h3>House Captain</h3>
+                <p>
+                    Served as House Captain, taking responsibility
+                    and contributing to team leadership.
+                </p>
+            </div>
+
+            <div class="achievement-card">
+                <div class="achievement-icon">🌍</div>
+                <h3>Model United Nations</h3>
+                <p>
+                    Participated in MUN and secured 3rd position.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS SECTION -->
+    <section class="section" id="skills">
+
+        <div class="section-heading">
+            <p>WHAT I'M LEARNING</p>
             <h2>My <span>Skills</span></h2>
         </div>
 
         <div class="skills-grid">
+
             <div class="skill-card">
                 <div class="skill-icon">🌐</div>
                 <h3>HTML</h3>
-                <p>Building web page structures.</p>
+                <p>Building the structure of websites.</p>
             </div>
 
             <div class="skill-card">
                 <div class="skill-icon">🎨</div>
                 <h3>CSS</h3>
-                <p>Designing responsive interfaces.</p>
+                <p>Designing and styling web pages.</p>
             </div>
 
             <div class="skill-card">
                 <div class="skill-icon">⚡</div>
                 <h3>JavaScript</h3>
-                <p>Adding interactivity to websites.</p>
+                <p>Learning interactive web development.</p>
             </div>
 
             <div class="skill-card">
@@ -158,100 +294,104 @@
             <div class="skill-card">
                 <div class="skill-icon">🔧</div>
                 <h3>Git & GitHub</h3>
-                <p>Version control and project hosting.</p>
+                <p>Learning version control and collaboration.</p>
             </div>
 
-            <div class="skill-card">
-                <div class="skill-icon">🧠</div>
-                <h3>Problem Solving</h3>
-                <p>Breaking down problems logically.</p>
-            </div>
         </div>
+
     </section>
 
-    <!-- PROJECTS -->
+
+    <!-- PROJECTS SECTION -->
     <section class="section" id="projects">
+
         <div class="section-heading">
-            <p>WHAT I'VE BEEN BUILDING</p>
-            <h2>Featured <span>Projects</span></h2>
+            <p>WHAT I'VE BEEN WORKING ON</p>
+            <h2>My <span>Projects</span></h2>
         </div>
 
         <div class="projects-grid">
 
             <div class="project-card">
-                <div class="project-image project-one">
-                    <span>🛡️</span>
+
+                <div class="project-icon">🛡️</div>
+
+                <h3>SAU Security Portal</h3>
+
+                <p>
+                    A web-based security management portal designed
+                    to manage university security staff, attendance,
+                    duty assignments and campus operations.
+                </p>
+
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
                 </div>
-                <div class="project-info">
-                    <p class="project-category">WEB DEVELOPMENT</p>
-                    <h3>SAU Security Portal</h3>
-                    <p>
-                        A centralized university security management
-                        portal for managing security staff, attendance
-                        and duty assignments.
-                    </p>
-                    <div class="tags">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                    </div>
-                    <a href="#" class="project-link">View Project ↗</a>
-                </div>
+
             </div>
+
 
             <div class="project-card">
-                <div class="project-image project-two">
-                    <span>💡</span>
+
+                <div class="project-icon">🌐</div>
+
+                <h3>Personal Portfolio</h3>
+
+                <p>
+                    A personal website showcasing my education,
+                    skills, achievements, interests and projects.
+                </p>
+
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
                 </div>
-                <div class="project-info">
-                    <p class="project-category">COMING SOON</p>
-                    <h3>Future Project</h3>
-                    <p>
-                        An exciting new idea is currently in development.
-                        More details coming soon.
-                    </p>
-                    <div class="tags">
-                        <span>Development</span>
-                        <span>Ideas</span>
-                    </div>
-                    <a href="#contact" class="project-link">Stay Tuned ↗</a>
-                </div>
+
             </div>
 
         </div>
+
     </section>
 
-    <!-- CONTACT -->
-    <section class="section contact-section" id="contact">
+
+    <!-- CONTACT SECTION -->
+    <section class="section" id="contact">
+
         <div class="section-heading">
-            <p>HAVE AN IDEA?</p>
-            <h2>Let's <span>Connect</span></h2>
+            <p>LET'S CONNECT</p>
+            <h2>Contact <span>Me</span></h2>
         </div>
 
-        <div class="contact-box">
-            <h3>Let's create something meaningful.</h3>
+        <div class="contact-content">
+
+            <h3>Have an idea or want to connect?</h3>
+
             <p>
-                Have a project, an idea or just want to connect?
-                Feel free to reach out!
+                I'm always interested in learning, collaborating
+                and exploring new opportunities.
             </p>
 
-            <a href="mailto:yourmail@example.com" class="primary-btn">
-                Say Hello ↗
+            <!-- Replace this with your actual email -->
+            <a href="mailto:your-email@example.com" class="btn">
+                Send Me an Email
             </a>
 
-            <div class="contact-socials">
-                <a href="https://github.com/" target="_blank">GitHub</a>
-                <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
-            </div>
         </div>
+
     </section>
+
 
     <!-- FOOTER -->
     <footer>
-        <p>Designed & Built by <span>Rudra Sharma</span></p>
-        <p>© 2026 All Rights Reserved.</p>
+        <p>© 2026 Rudra Sharma. All Rights Reserved.</p>
+        <p>Designed & Built with curiosity 💜</p>
     </footer>
 
+
     <script src="script.js"></script>
+
 </body>
 </html>
